@@ -11,7 +11,6 @@
 
  
   }
-  
   /* Clear floats after the columns */
   .row:after {
     content: "";
@@ -77,6 +76,8 @@
     display: grid;
     text-transform: uppercase;
     font-size:26px;
+    padding-left: 7px;
+    margin: 1px;
 
   }
 /* CSS for the hover effect */
@@ -87,14 +88,14 @@
 .portal-button:hover::after {
     content: attr(data-hover-text); /* Use the data-hover-text attribute as content */
     position: absolute;
-    top: 100%;
+    top: 0;
     left: 0;
     display: block;
     color: black; /* Text color for the hover text */
     padding: 8px; /* Adjust the padding as needed */
     border: 1px solid #8AC75D; /* Optional border for the hover text */
-    border-top: none; /* Remove the top border to connect with the button */
-    margin-top: 14px;
+    margin-top: 0x;
+    background-color: white;
 }
 
 .portal-button:hover, .portal-button:focus{
