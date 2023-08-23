@@ -86,10 +86,6 @@
     padding-bottom: 5px;
     align-items: center;
     text-align: center;
-    -webkit-box-shadow: 0px 0px 5px 3px rgba(255, 255, 255, 0.37);
-    -moz-box-shadow: 0px 0px 5px 3px rgba(255, 255, 255, 0.37);
-    box-shadow: 0px 0px 5px 3px rgba(255, 255, 255, 0.37);
-
   }
 /* CSS for the hover effect */
 .portal-button {
