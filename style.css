@@ -1,3 +1,11 @@
+	@font-face{
+		font-family:Open Sans;
+		src: url(OpenSans-Medium.ttf);
+
+	}
+  body{
+    font-family: 'Open Sans';
+  }
 /* Create three equal columns that floats next to each other */
   .column {
     float: left;
